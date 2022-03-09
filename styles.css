@@ -1,0 +1,55 @@
+*{
+  background-color: antiquewhite;
+}
+.img{
+  border: rgb(1, 117, 233);
+  margin:10px auto;
+  border-radius:5px;
+  border: 1px solid #999;
+  padding: 1px;
+  width:auto;
+  height: 300px;px;
+  background-repeat:no-repeat;
+  background:url(http://www.adigitaldreamer.com/gallery/albums/userpics/10001/normal_kb1.jpg);
+  background-size: cover;
+}
+.img img{
+  width:100%;
+}
+.barrasup{
+  background-color: rgb(151, 151, 151);
+  margin: 10px;
+  border: rgb(1, 117, 233);
+  padding: 10px;
+
+}
+.nombre{
+      justify-content: left;
+      width: 20px;
+      height: 20px;
+      text-align: left;
+  }
+.social {
+    min-width: 8px;
+    padding: 1px;
+    display: flex;
+    justify-content:right
+  }
+  
+ .social a {
+    text-decoration: none;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+    background: #314652;
+    color: #f1f1f1;
+    border-radius: 25%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+  }
+  
+  .social a:hover {
+    transform: scale(1.2);
+  }
