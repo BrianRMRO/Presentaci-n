@@ -1,37 +1,17 @@
 *{
-  background-color: antiquewhite;
-}
-.img{
-  border: rgb(1, 117, 233);
-  margin:10px auto;
-  border-radius:5px;
-  border: 1px solid #999;
-  padding: 1px;
-  width:auto;
-  height: 300px;px;
-  background-repeat:no-repeat;
-  background:url(http://www.adigitaldreamer.com/gallery/albums/userpics/10001/normal_kb1.jpg);
-  background-size: cover;
-}
-.img img{
-  width:100%;
+  background-color: rgb(255, 255, 255);
 }
 .barrasup{
-  background-color: rgb(151, 151, 151);
-  margin: 10px;
-  border: rgb(1, 117, 233);
-  padding: 10px;
+  background-color: rgb(99, 99, 99);
+  border-radius:5px;
+  border: 5px solid #999;
+  padding: 0px;
+  margin: 2px;
 
 }
-.nombre{
-      justify-content: left;
-      width: 20px;
-      height: 20px;
-      text-align: left;
-  }
 .social {
     min-width: 8px;
-    padding: 1px;
+    padding: 5px;
     display: flex;
     justify-content:right
   }
@@ -42,7 +22,7 @@
     width: 30px;
     height: 30px;
     line-height: 30px;
-    text-align: right;
+    text-align: center;
     background: #314652;
     color: #f1f1f1;
     border-radius: 25%;
@@ -53,3 +33,40 @@
   .social a:hover {
     transform: scale(1.2);
   }
+
+.img{
+  margin:10px auto;
+  border-radius:5px;
+  border: 5px solid #999;
+  padding: 15px;
+  width:auto;
+  height: 300px;px;
+  background-repeat:no-repeat;
+  background-image:url(http://www.adigitaldreamer.com/gallery/albums/userpics/10001/normal_kb1.jpg);
+  background-size: cover;
+}
+.img img{
+  width:100%;
+}
+
+ul.titulos li{
+  display: inline;
+  padding-right: 1px;
+}
+
+.bio{
+  margin: 10px;
+  border: 5px solid #999;
+  padding: 15px;
+  border-radius: 10px;
+}
+.conocimientos{
+  margin: 10px;
+  border: 5px solid #999;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.Foto {
+  border-radius: 50%;
+}
